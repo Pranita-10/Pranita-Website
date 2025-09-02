@@ -10,6 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+// Wait for the entire page to be loaded before running the script
+document.addEventListener('DOMContentLoaded', () => {
+    // Select the link element inside the h2 with the class "logo-heading"
+    const logoLink = document.querySelector('.logo-heading a');
+
+    // Add a click event listener to the link
+    logoLink.addEventListener('click', (event) => {
+        // Log a message to the console when the link is clicked
+        console.log('The "Pranita Wagh" logo was clicked!');
+        // You could add other actions here, like an animation or a data log
+    });
+});
+
     const navLinks = document.querySelectorAll('.menu-list a[href^="#"]');
     
     // Add a click event listener to each link

@@ -40,6 +40,20 @@ a {
     cursor: pointer;
 }
 
+/* Style the h2 and the link inside it */
+.logo-heading a {
+    text-decoration: none; /* Removes the underline from the link */
+    color: #333; /* Sets the text color to a dark grey */
+    font-family: Arial, sans-serif; /* Changes the font */
+    font-size: 2em; /* Makes the font size larger than the default h2 */
+    transition: color 0.3s ease; /* Adds a smooth color transition effect */
+}
+
+
+/* Style for when the link is hovered over */
+.logo-heading a:hover {
+    color: #007bff; /* Changes the text color on hover */
+}
 
 .menu-list {
     list-style: none; /* None list-style */
