@@ -69,6 +69,7 @@ a {
 }
 
 .links:hover, .links.active {
+    
     color: #3d7be5; 
     text-decoration:underline;
 }

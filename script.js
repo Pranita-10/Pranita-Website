@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Wait for the entire page to be loaded before running the script
+// Wait for the entire page to be  before running the script
 document.addEventListener('DOMContentLoaded', () => {
     // Select the link element inside the h2 with the class "logo-heading"
     const logoLink = document.querySelector('.logo-heading a');
